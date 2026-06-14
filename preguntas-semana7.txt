@@ -1,0 +1,15 @@
+Pregunta 1:
+¿Cuál es la función principal de una API REST?
+Respuesta: B. Permitir que diferentes sistemas o aplicaciones intercambien información
+
+Pregunta 2:
+¿Qué método HTTP se usa para obtener datos de un servidor?
+Respuesta: GET
+
+Pregunta 3:
+¿Qué formato de datos es el más usado en APIs REST?
+Respuesta: JSON
+
+Pregunta 4:
+¿Qué puerto usa por defecto Express si no se especifica otro?
+Respuesta: 3000
