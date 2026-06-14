@@ -1,0 +1,12 @@
+$ curl -X POST http://localhost:3000/reportes -H "Content-Type: application/json" -d '{"tipo":"hueco","descripcion":"Hueco en la carrera 8"}'
+{"mensaje":"Reporte registrado","reporte":{"id":1,"tipo":"hueco","descripcion":"Hueco en la carrera 8"}}
+
+$ curl http://localhost:3000/reportes
+[{"id":1,"tipo":"hueco","descripcion":"Hueco en la carrera 8"}]
+
+$ curl -X POST http://localhost:3000/reportes -H "Content-Type: application/json" -d '{"tipo":"basura","descripcion":"Basura acumulada parqueadero"}'
+{"mensaje":"Reporte registrado","reporte":{"id":2,"tipo":"basura","descripcion":"Basura acumulada parqueadero"}}
+
+$ curl http://localhost:3000/reportes
+[{"id":1,"tipo":"hueco","descripcion":"Hueco en la carrera 8"},{"id":2,"tipo":"basura","descripcion":"Basura acumulada parqueadero"}]
+
